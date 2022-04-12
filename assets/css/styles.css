@@ -563,7 +563,8 @@ input.src:hover {
         flex-direction: row;
         justify-items: space-between;
         flex-wrap: wrap;
-        padding: 15px;
+        margin-top: 5px;
+        margin-left: 100px;
         margin-bottom: 20px;
     }
     
@@ -571,10 +572,19 @@ input.src:hover {
         background-color: #dea26c;
         width: 450px;
         height: 520px;
-        margin-right: 2%;
+        margin-right: 5%;
+        margin-bottom: 2%;
         margin-top: 2%;
-        padding: 1px;
+        padding: 10px;
         border: 5px solid black;
+        transition: all 2s;
+    }
+
+    
+    .card__obras:hover { 
+        width:  650px;
+        height: 720px;
+        
     }
     
     .card__imagen__obra {
